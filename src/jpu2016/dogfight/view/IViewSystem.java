@@ -2,5 +2,7 @@ package jpu2016.dogfight.view;
 
 public interface IViewSystem {
 
-	bonjour;
+	public void displayMessage(String message); 
+	
+	public void closeAll();
 }
