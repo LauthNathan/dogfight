@@ -12,22 +12,22 @@ public class Dimension {
 		public Dimension(Dimension dimension){
 			
 		}
-		
-		public int getWidth(){
+
+		public int getWidth() {
+			return width;
+		}
+
+		public void setWidth(int width) {
+			this.width = width;
+		}
+
+		public int getHeight() {
 			return height;
-			
 		}
+
+		public void setHeight(int height) {
+			this.height = height;
+		}
+
 		
-		public void setWidth(int width){
-			
-		}
-		
-		public int getHeight(){
-			return height;
-			
-		}
-		
-		public void setHeight(int height){
-			
-		}
 }
