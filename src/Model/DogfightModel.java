@@ -9,6 +9,7 @@ public class DogfightModel extends Observable{
 		}
 		
 		public IArea getArea(){
+			return null;
 			
 		}
 		
@@ -29,6 +30,7 @@ public class DogfightModel extends Observable{
 		}
 		
 		public IMobile getMobileByPlayer(int player){
+			return null;
 			
 		}
 		
