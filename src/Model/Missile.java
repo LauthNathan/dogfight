@@ -1,6 +1,6 @@
 package Model;
 
-public class Missile {
+public class Missile extends Mobile{
 		
 		private static int SPEED = 4;
 		private static int WIDTH = 30;
@@ -25,6 +25,8 @@ public class Missile {
 		}
 		
 		public boolean isWeapon(){
+			return false;
 			
 		}
+
 }
