@@ -1,15 +1,10 @@
 package Model;
 
 import java.util.ArrayList;
-import java.util.Observable;
 
-public class DogfightModel  extends Observable implements IDogfightModel{
-		public DogfightModel(){
-			
-		}
-		
+public interface IDogfightModel {
+
 		public IArea getArea(){
-			return null;
 			
 		}
 		
@@ -30,12 +25,10 @@ public class DogfightModel  extends Observable implements IDogfightModel{
 		}
 		
 		public IMobile getMobileByPlayer(int player){
-			return null;
 			
 		}
 		
 		public void setMobilesHavesMoved(){
 			
 		}
-
 }

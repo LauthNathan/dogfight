@@ -2,7 +2,7 @@ package Model;
 
 import java.awt.Image;
 
-public class Sky {
+public class Sky implements IArea{
 		
 	public Sky(Dimension dimension){
 		

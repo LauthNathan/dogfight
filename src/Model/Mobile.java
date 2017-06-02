@@ -109,7 +109,7 @@ public class Mobile implements IMobile{
 			
 		}
 		
-		public IDogfghtModel getDogfightModel(){
+		public IDogfightModel getDogfightModel(){
 			
 		}
 		
