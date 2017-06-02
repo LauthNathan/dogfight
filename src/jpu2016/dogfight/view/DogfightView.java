@@ -13,5 +13,15 @@ public class DogfightView implements IViewSystem{
 			
 		}
 		
+		@Override
+		public void displayMessage(String message){
+			
+			
+		}
+		
+		@Override
+		public void closeAll(){
+			
+		}
 	
 }
